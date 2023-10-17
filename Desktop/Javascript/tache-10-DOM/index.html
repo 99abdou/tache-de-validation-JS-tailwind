@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrapp Bundle with Popper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container mt-5"> 
+        <h2 class="bg-primary text-center  mt-4 p-2 rounded-5 text-light">To Do List</h2>
+
+        <div class="form-group">
+            <input type="text" class="form-control" id="ajoutInput" placeholder="Entrez une nouvelle tâche">
+            <button class="btn btn-primary mt-2" onclick="addTask()">Ajouter</button>
+        </div>
+            <ul id="ajoutList" class="list-group"></ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
